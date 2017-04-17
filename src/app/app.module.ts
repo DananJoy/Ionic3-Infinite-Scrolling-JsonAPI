@@ -4,7 +4,6 @@ import { HttpModule } from '@angular/http';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
-import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 
 import { Data } from '../providers/data';
 
@@ -17,7 +16,6 @@ import { MyApp } from './app.component';
   imports: [
     BrowserModule,
     HttpModule,
-    InfiniteScrollModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
